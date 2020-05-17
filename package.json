@@ -1,0 +1,22 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "지뢰찾기 게임을 할 수 있는 디스코드 봇.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pneuma714/Minesweeper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pneuma714/Minesweeper/issues"
+  },
+  "homepage": "https://github.com/Pneuma714/Minesweeper#readme",
+  "dependencies": {
+    "canvas": "^2.6.1"
+  }
+}
