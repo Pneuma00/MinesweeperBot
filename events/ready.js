@@ -5,7 +5,7 @@ module.exports = async (client) => {
   
   setInterval(() => {
     const activities_list = [`${client.guilds.cache.size}개의 서버에 참여 중`, `${client.users.cache.size}명 유저와 함께 중`];
-    client.user.setActivity(`${client.config.prefix}mine | ${activities_list[index]}`);
+    client.user.setActivity(`${client.config.prefix}play | ${activities_list[index]}`);
     index = (index + 1) % activities_list.length;
   }, 5000);
 };

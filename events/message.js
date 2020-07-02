@@ -6,6 +6,7 @@ module.exports = async (client, message) => {
   if (message.author.bot) return;
 
   if (message.content.indexOf(client.config.prefix) !== 0) return;
+  if (message.content.startsWith('/해피야')) return;
 
   if (message.channel.type === 'text')
     console.log(`[${simpleDate(message.createdAt)}] (Guild: ${message.guild.id}) (Channel: ${message.channel.id}) ${message.author.tag} : ${message.content}`);
@@ -20,7 +21,7 @@ module.exports = async (client, message) => {
   if (!command) return message.reply('존재하지 않는 명령어입니다.');
  
   try {
-    command.execute(message, args);
+    command.run(message, args);
   }
   catch (error) {
     console.error(error);

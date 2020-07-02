@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Pneuma714/Minesweeper#readme",
   "dependencies": {
-    "canvas": "^2.6.1"
+    "canvas": "^2.6.1",
+    "koreanbots": "^1.0.9"
   }
 }
